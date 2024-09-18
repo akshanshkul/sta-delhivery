@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="row">
+            <div class="col-xs-12">
+                <nav class="navbar navbar-default">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Delivery Dashboard</a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="logout.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 sidebar">
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="orders.html">Orders</a></li>
+                    <li><a href="notifications.html">Notifications</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                </ul>
+            </nav>
+
+            <!-- Main Content -->
+            <div class="col-md-10">
+                <h2>Order #001 Details</h2>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Order Information</div>
+                    <div class="panel-body">
+                        <p><strong>Customer Name:</strong> John Doe</p>
+                        <p><strong>Address:</strong> 123 Main St</p>
+                        <p><strong>Status:</strong> Pending</p>
+                        <p><strong>Items:</strong></p>
+                        <ul>
+                            <li>Item 1 - $10.00</li>
+                            <li>Item 2 - $15.00</li>
+                        </ul>
+                        <p><strong>Total:</strong> $25.00</p>
+                    </div>
+                </div>
+                <button class="btn btn-success">Mark as Delivered</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
